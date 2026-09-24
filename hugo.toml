@@ -2,3 +2,19 @@ baseURL = 'https://example.org/'
 locale = 'en-us'
 title = 'My New Hugo Project'
 theme = "congo"
+
+[menu]
+    [[menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+
+    [[menu.main]]
+        name = "Projects"
+        url = "/projects/"
+        weight = 2
+
+    [[menu.main]]
+        name = "About"
+        url = "/about/"
+        weight = 3
