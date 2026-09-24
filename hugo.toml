@@ -16,5 +16,5 @@ theme = "congo"
 
     [[menu.main]]
         name = "About"
-        url = "/about/
+        url = "/about/"
         weight = 3
