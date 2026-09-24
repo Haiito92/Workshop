@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://haiito92.github.io/'
 locale = 'en-us'
 title = 'My New Hugo Project'
 theme = "congo"
@@ -16,5 +16,5 @@ theme = "congo"
 
     [[menu.main]]
         name = "About"
-        url = "/about/"
+        url = "/about/
         weight = 3
