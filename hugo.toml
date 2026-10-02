@@ -1,7 +1,7 @@
 baseURL = 'https://haiito92.github.io/Workshop/'
 locale = 'en-us'
 title = "Haiito's Workshop"
-theme = "congo"
+theme = "blowfish-main"
 
 [menu]
     [[menu.main]]
@@ -10,16 +10,55 @@ theme = "congo"
         weight = 1
 
     [[menu.main]]
-        name = "Personnal Projects"
-        url = "/personnal-projects/"
+        name = "Projects"
         weight = 2
+        identifier = "projects"
+
+        [[menu.main]]
+            name = "Personnal"
+            url = "/personnal-projects/"
+            weight = 1
+            identifier = "personnal"
+            parent = "projects"
+
+        [[menu.main]]
+            name = "School"
+            url = "/school-projects/"
+            weight = 2
+            identifier = "school"
+            parent = "projects"
 
     [[menu.main]]
-        name = "School Projects"
-        url = "/school-projects/"
-        weight = 3
+        name = "Devlogs"
+        weight = 4 
+        identifier = "devlogs"
+
+        [[menu.main]]
+            name = "Little Engine"
+            url = "/devlogs/little-engine/"
+            weight = 1
+            parent = "devlogs"
 
     [[menu.main]]
         name = "About"
         url = "/about/"
-        weight = 4
+        weight = 5
+
+    [[menu.footer]]
+        identifier = "github"
+        pre = "github"
+        url = "https://github.com/Haiito92"
+        weight = 1
+
+    [[menu.footer]]
+        identifier = "linkedin"
+        pre = "linkedin"
+        url = "https://www.linkedin.com/in/antoine-hanna/"
+        weight = 2
+
+    [[menu.footer]]
+        identifier = "itchio"
+        pre = "itchio"
+        name = "Itch.io"
+        url = "https://haiito.itch.io/"
+        weight = 3

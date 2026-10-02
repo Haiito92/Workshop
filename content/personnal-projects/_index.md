@@ -1,7 +1,9 @@
 +++
-date = '2026-09-24T14:51:01-04:00'
 draft = false
 title = 'Personnal Projects'
+
+cardView = true
+
 +++
 
-*This is page under construction.*
+Here you see all the personnal projects I've made! Solo dev, game jams, etc...
