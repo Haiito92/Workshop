@@ -4,4 +4,4 @@ draft = false
 title = 'Personnal Projects'
 +++
 
-* This is page under construction. *
+*This is page under construction.*
