@@ -1,6 +1,6 @@
 baseURL = 'https://haiito92.github.io/Workshop/'
 locale = 'en-us'
-title = 'My New Hugo Project'
+title = 'Haiito's Workshop'
 theme = "congo"
 
 [menu]
@@ -10,11 +10,16 @@ theme = "congo"
         weight = 1
 
     [[menu.main]]
-        name = "Projects"
-        url = "/projects/"
+        name = "Personnal Projects"
+        url = "/personnal-projects/"
         weight = 2
+
+    [[menu.main]]
+        name = "School Projects"
+        url = "/school-projects/"
+        weight = 3
 
     [[menu.main]]
         name = "About"
         url = "/about/"
-        weight = 3
+        weight = 4
