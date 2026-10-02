@@ -1,6 +1,6 @@
 baseURL = 'https://haiito92.github.io/Workshop/'
 locale = 'en-us'
-title = 'Haiito\'s Workshop'
+title = "Haiito's Workshop"
 theme = "congo"
 
 [menu]
