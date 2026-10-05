@@ -1,0 +1,39 @@
+[[main]]
+        name = "Accueil"
+        pageRef = "/"
+        weight = 1
+
+    [[main]]
+        name = "Projets"
+        weight = 2
+        identifier = "projects"
+
+        [[main]]
+            name = "Personnels"
+            pageRef = "/personnal-projects/"
+            weight = 1
+            identifier = "personnal"
+            parent = "projects"
+
+        [[main]]
+            name = "École"
+            pageRef = "/school-projects/"
+            weight = 2
+            identifier = "school"
+            parent = "projects"
+
+    [[main]]
+        name = "Devlogs"
+        weight = 4 
+        identifier = "devlogs"
+
+        [[main]]
+            name = "Little Engine"
+            pageRef = "/devlogs/little-engine/"
+            weight = 1
+            parent = "devlogs"
+
+    [[main]]
+        name = "À propos"
+        pageRef = "/about/"
+        weight = 5
