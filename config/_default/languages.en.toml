@@ -1,0 +1,8 @@
+locale = "en"
+label = "English"
+weight = 2
+title = "Haiito's Workshop"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"

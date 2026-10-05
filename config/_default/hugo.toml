@@ -1,5 +1,4 @@
 baseURL = 'https://haiito92.github.io/Workshop/'
-locale = 'en-us'
 title = "Haiito's Workshop"
 theme = "blowfish-main"
 
@@ -20,23 +19,3 @@ defaultContentLanguage = "fr"
 
 [params.header]
   layout = "floating"
-
-[menu]
-    [[menu.footer]]
-        identifier = "github"
-        pre = "github"
-        url = "https://github.com/Haiito92"
-        weight = 1
-
-    [[menu.footer]]
-        identifier = "linkedin"
-        pre = "linkedin"
-        url = "https://www.linkedin.com/in/antoine-hanna/"
-        weight = 2
-
-    [[menu.footer]]
-        identifier = "itchio"
-        pre = "itchio"
-        name = "Itch.io"
-        url = "https://haiito.itch.io/"
-        weight = 3
