@@ -1,6 +1,9 @@
 +++
 draft = false
-title = 'Home'
+title = 'Accueil'
+showDate = false
+showReadingTime = false
+showWordCount = false
 
 +++
 

@@ -2,6 +2,10 @@
 draft = false
 title = 'Little Engine Devlog'
 cardView = true
+
+showDate = false
+showReadingTime = false
+showWordCount = false
 +++
 
 

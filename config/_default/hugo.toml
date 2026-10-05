@@ -14,8 +14,12 @@ defaultContentLanguage = "fr"
     weight = 2
     contentDir = "content/en"
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [params]
   colorScheme = "fire"
+  enableSearch = true
 
 [params.header]
   layout = "floating"
