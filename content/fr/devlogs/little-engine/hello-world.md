@@ -156,7 +156,7 @@ task("create-class")
 Via set_menu, je dis à xmake comment appeler la tâche.
 Je peux ensuite l'éxécuter dans l'invite de commande.
 
-```Powershell
+```pwsh
 xmake create-class -n Application -m Core
 ```
 

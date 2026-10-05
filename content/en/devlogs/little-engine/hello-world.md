@@ -156,7 +156,7 @@ task("create-class")
 Through set_menu, I tell xmake how to call the task.
 I can then run it from the command prompt.
 
-```Powershell
+```pwsh
 xmake create-class -n Application -m Core
 ```
 
