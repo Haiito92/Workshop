@@ -16,4 +16,4 @@ showReadingTime = false
 
 ## Contact Me
 
-ahanna.pro@gmail.com
+{{< email email="mailto:ahanna.pro@gmail.com" text="ahanna.pro@gmail.com" subject="">}}
