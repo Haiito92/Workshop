@@ -1,6 +1,6 @@
 baseURL = 'https://haiito92.github.io/Workshop/'
 title = "Haiito's Workshop"
-theme = "blowfish-main"
+theme = "blowfish"
 
 defaultContentLanguage = "fr"
 
