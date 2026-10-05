@@ -20,6 +20,11 @@ defaultContentLanguage = "fr"
 [params]
   colorScheme = "fire"
   enableSearch = true
+  smartToC = true
 
-[params.header]
-  layout = "floating"
+  [params.header]
+    layout = "floating"
+
+  [params.article]
+    showTableOfContents = true
+
