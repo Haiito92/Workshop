@@ -28,4 +28,5 @@ defaultContentLanguage = "fr"
 
   [params.article]
     showTableOfContents = true
+    showPagination = false
 
