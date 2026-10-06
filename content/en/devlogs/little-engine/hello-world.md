@@ -166,7 +166,7 @@ That's it for this week!
 
 If you have any recommendations or advice on how to improve my devlog or my engine, feel free to reach out to me:
 * On **[LinkedIn](https://www.linkedin.com/in/antoine-hanna/)**
-* By email: **ahanna.pro@gmail.com**
+* By email: {{< email email="mailto:ahanna.pro@gmail.com" text="ahanna.pro@gmail.com" subject="">}}
 
 You can find everything on the project's repo:
 {{< github repo="Haiito92/LittleEngine" showThumbnail=true >}}

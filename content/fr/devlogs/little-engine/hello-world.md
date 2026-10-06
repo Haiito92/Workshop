@@ -166,7 +166,7 @@ C'est tout pour cette semaine !
 
 Si vous avez des recommandations et conseils sur comment améliorer mon devlog ou mon moteur, n'hésitez pas à me contacter :
 * Sur **[LinkedIn](https://www.linkedin.com/in/antoine-hanna/)** 
-* Par mail : **ahanna.pro@gmail.com**
+* Par mail : {{< email email="mailto:ahanna.pro@gmail.com" text="ahanna.pro@gmail.com" subject="">}}
 
 Vous pouvez tout retrouver sur le repo du projet : 
 {{< github repo="Haiito92/LittleEngine" showThumbnail=true >}}
