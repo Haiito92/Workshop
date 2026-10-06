@@ -62,6 +62,13 @@ int main(int argc, char **argv) {
 }
 ```
 
+{{< video
+    src="little-engine/devlog/hello-world/hello-world.mp4" 
+    autoStart=true
+    loop=true
+    muted=true
+>}}
+
 ## Configuration Xmake
 
 Le code engine de cette semaine se résume au petit script du dessus.

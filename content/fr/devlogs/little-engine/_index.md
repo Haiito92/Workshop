@@ -9,6 +9,6 @@ showWordCount = false
 +++
 
 
-{{< button pageRef="personnal-projects/little-engine/little_engine.md" target="_self" >}}
+{{< button pageRef="personnal-projects/little-engine/little-engine.md" target="_self" >}}
 Découvrez Little Engine!
 {{< /button >}}
