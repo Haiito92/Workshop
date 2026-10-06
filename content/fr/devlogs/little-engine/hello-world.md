@@ -16,7 +16,7 @@ Retour
 Little Engine est, pour moi, un projet avant tout pour le fun, parce que j'aime bien rentrer dans le code de bas niveau. 
 C'est par la même occasion un projet d'apprentissage et de découverte.
 
-L'idée c'est d'abord de faire un petit moteur en m'aidant des librairies communes.
+L'idée, c'est d'abord de faire un petit moteur en m'aidant des librairies communes.
 SDL, Box2D, Jolt, etc...
 
 Puis, un par un, remplacer les middlewares/librairies par mes propres intégrations faites de zéro !
@@ -25,7 +25,7 @@ Je compte poster à un rythme d'un post par semaine. Parfois les avancées seron
 
 ## Première étape : Hello world
 
-Pour cette semaine, j'ai simplement fait un petit bout de code, en utilisant **SDL3**, pour ouvrir une fênetre que l'on peut fermer.
+Pour cette semaine, j'ai simplement fait un petit bout de code, en utilisant **SDL3**, pour ouvrir une fenêtre que l'on peut fermer.
 
 ```C++
 // main.cpp
@@ -67,14 +67,14 @@ int main(int argc, char **argv) {
 Le code engine de cette semaine se résume au petit script du dessus.
 Le reste de mon travail cette semaine était surtout un peu de préparation de la config **Xmake**.
 
-Xmake est un **outil de build**. Il permet de créer des fichiers de configuration qui facilitent notamment: 
+Xmake est un **outil de build**. Il permet de créer des fichiers de configuration qui facilitent notamment : 
 * La generation de projet
 * La gestion des packages
 * La gestion de la compilation
 * La build/le packaging
 
 
-J'ai mis en place le xmake.lua (le fichier config principal), ainsi que deux fichiers "task" pour faciliter la création de module et de classe.
+J'ai mis en place le xmake.lua (le fichier config principal), ainsi que deux fichiers "task" pour faciliter la création de modules et de classes.
 
 ### Fichier de config : xmake.lua
 
@@ -130,7 +130,7 @@ target("LittleLauncher")
 
 ### Tasks xmake
 
-Les fichiers "tasks" me permettent de créer mes propros commandes xmake pour réaliser des tâches diverses.
+Les fichiers "tasks" me permettent de créer mes propos commandes xmake pour réaliser des tâches diverses.
 
 Je peux créer un fichier .lua (que j'importe ensuite dans le fichier de config principal), et déclarer une tâche. Voici en exemple la tâche de création de classe :
 
@@ -158,7 +158,7 @@ task("create-class")
 ```
 
 Via set_menu, je dis à xmake comment appeler la tâche.
-Je peux ensuite l'éxécuter dans l'invite de commande.
+Je peux ensuite l'exécuter dans l'invite de commande.
 
 ```pwsh
 xmake create-class -n Application -m Core
