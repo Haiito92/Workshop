@@ -18,9 +18,10 @@ defaultContentLanguage = "fr"
   home = ["HTML", "RSS", "JSON"]
 
 [params]
-  colorScheme = "fire"
+  colorScheme = "github"
   enableSearch = true
   smartToC = true
+  customCSS = ["css/custom.css"]
 
   [params.header]
     layout = "floating"

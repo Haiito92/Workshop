@@ -63,7 +63,7 @@ int main(int argc, char **argv) {
 ```
 
 {{< video
-    src="little-engine/devlog/hello-world/hello-world.mp4" 
+    src="mp4/little-engine/devlog/hello-world/hello-world.mp4" 
     caption="Demo of the 'Hello World' window."
     loop=true
     muted=true
