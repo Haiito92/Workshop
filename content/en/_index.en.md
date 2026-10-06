@@ -6,4 +6,4 @@ showReadingTime = false
 showWordCount = false
 +++
 
-{{< list title="Featured" limit=4 cardView=true where="Params.featured" value=true >}}
+{{< list title="Featured" limit=4 where="Params.featured" value=true >}}

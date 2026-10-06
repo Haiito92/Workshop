@@ -7,4 +7,4 @@ showWordCount = false
 
 +++
 
-{{< list title="En Vedette" limit=4 cardView=true where="Params.featured" value=true >}}
+{{< list title="En Vedette" limit=4 where="Params.featured" value=true >}}

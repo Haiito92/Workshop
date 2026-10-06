@@ -29,4 +29,7 @@ defaultContentLanguage = "fr"
   [params.article]
     showTableOfContents = true
     showPagination = false
+    showHero = true
+    heroStyle = "background"
+    showTags = true
 

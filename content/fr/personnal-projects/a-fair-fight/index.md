@@ -6,6 +6,7 @@ showWordCount = false
 showReadingTime = false
 
 personnalGameJam = true
+tags = ["Tour Par Tour", "Unity"]
 +++
 
 {{< button href="https://aslenaegair.itch.io/a-fair-fight" target="_blank" >}}

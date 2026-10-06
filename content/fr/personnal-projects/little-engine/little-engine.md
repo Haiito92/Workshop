@@ -8,6 +8,8 @@ showReadingTime = false
 
 featured = true
 personnalMain = true
+
+tags = ["Moteur"]
 +++
 > ### Mon petit moteur que je construit de zéro !
 
