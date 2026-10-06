@@ -7,6 +7,7 @@ showWordCount = false
 showReadingTime = false
 
 featured = true
+personnalMain = true
 +++
 > ### Mon petit moteur que je construit de zéro !
 

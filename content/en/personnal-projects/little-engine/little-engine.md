@@ -7,6 +7,7 @@ showWordCount = false
 showReadingTime = false
 
 featured = true
+personnalMain = true
 +++
 > ### My little engine that I'm building from scratch!
 

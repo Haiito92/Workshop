@@ -10,14 +10,14 @@
 
     [[main]]
         name = "Personnal"
-        pageRef = "/personnal-projects/"
+        pageRef = "/personnal-projects/personnal-projects.md"
         weight = 1
         identifier = "personnal"
         parent = "projects"
 
     [[main]]
         name = "School"
-        pageRef = "/school-projects/"
+        pageRef = "/school-projects/school-projects.md"
         weight = 2
         identifier = "school"
         parent = "projects"
