@@ -3,6 +3,8 @@ date = '2026-10-02T17:35:54-04:00'
 draft = false
 title = 'Hello World'
 showWordCount = false
+
+tags = ["Configuration"]
 +++
 
 {{< button pageRef="devlogs/little-engine/" target="_self" >}}
@@ -63,7 +65,7 @@ int main(int argc, char **argv) {
 ```
 
 {{< video
-    src="mp4/little-engine/devlog/hello-world/hello-world.mp4" 
+    src="little-engine/devlog/hello-world/hello-world.mp4" 
     caption="Demo of the 'Hello World' window."
     loop=true
     muted=true
