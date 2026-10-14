@@ -468,6 +468,8 @@ Actuellement on a ce graphe de relation entre les binaires :
 {{< mermaid >}}
 graph TD;
 A[LittleLauncher.exe]-->B[Core.dll];
+A[LittleLauncher.exe]-->C[SDL3.lib];
+B[Core.dll]-->D[SDL3.lib];
 {{< /mermaid >}}
 
 Si on ajoute le module Platform, et que l'on déplace tous les appels vers la SDL à l'intérieur, on se retrouverait avec ça :
@@ -477,6 +479,7 @@ graph TD;
 A[LittleLauncher.exe]-->B[Core.dll];
 A[LittleLauncher.exe]-->C[Platform.dll];
 B[Core.dll]-->C[Platform.dll];
+C[Platform.dll]-->D[SDL3.lib];
 {{< /mermaid >}}
 
 Alors c'est parti. Pour la classe Platform, c'est simple, je la déplace dans le module Platform. Pour les autres classes, c'est un peu différent...
@@ -826,6 +829,7 @@ B[Rendering.dll]-->C[Core.dll];
 A[LittleLauncher.exe]-->C[Core.dll];
 B[Rendering.dll]-->D[Platform.dll];
 C[Core.dll]-->D[Platform.dll];
+D[Platform.dll]-->E[SDL3.lib];
 {{< /mermaid >}}
 
 ## Conclusion

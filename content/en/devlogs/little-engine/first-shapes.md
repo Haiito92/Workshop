@@ -8,7 +8,7 @@ tags = ["Rendering", "Core", "Platform"]
 +++
 
 {{< button pageRef="devlogs/little-engine/" target="_self" >}}
-Return
+Back
 {{< /button >}}
 
 ## Introduction
@@ -123,7 +123,7 @@ It should go through our engine, and therefore only talk to our engine's classes
 ## "Core" Module
 
 The **Core** module will house our first classes, central to the engine.
-It's its "core" (pun intended).
+It's its "core".
 
 ### Export
 
@@ -465,6 +465,8 @@ Currently, we have this relationship graph between the binaries:
 {{< mermaid >}}
 graph TD;
 A[LittleLauncher.exe]-->B[Core.dll];
+A[LittleLauncher.exe]-->C[SDL3.lib];
+B[Core.dll]-->D[SDL3.lib];
 {{< /mermaid >}}
 
 If we add the Platform module, and move all calls to SDL inside it, we end up with this:
@@ -474,6 +476,7 @@ graph TD;
 A[LittleLauncher.exe]-->B[Core.dll];
 A[LittleLauncher.exe]-->C[Platform.dll];
 B[Core.dll]-->C[Platform.dll];
+C[Platform.dll]-->D[SDL3.lib];
 {{< /mermaid >}}
 
 Alright, let's go. For the Platform class, it's simple, I just move it into the Platform module. For the other classes, it's a bit different...
@@ -822,6 +825,7 @@ B[Rendering.dll]-->C[Core.dll];
 A[LittleLauncher.exe]-->C[Core.dll];
 B[Rendering.dll]-->D[Platform.dll];
 C[Core.dll]-->D[Platform.dll];
+D[Platform.dll]-->E[SDL3.lib];
 {{< /mermaid >}}
 
 ## Conclusion
